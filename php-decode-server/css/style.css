@@ -1,0 +1,58 @@
+.page-content{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.film-info{
+	width: 450px;
+	float: left;
+	margin-left: 60px;
+}
+
+.film-info:first-child{
+	margin-left: 0;
+}
+
+.film-info__title{
+	font-size: 20px;
+	font-style: italic;
+	border-bottom: solid 2px black;
+	margin-bottom: 10px;
+}
+
+.film-list{
+	
+}
+
+.film-list__item{
+	margin: 5px 0;
+	border-bottom: solid 1px black;
+}
+
+.film-list__item:after{
+	content: " ";
+	display: table;
+	clear:both;
+}
+
+.film-list__item-thumbnail{
+	float: left;
+	margin: 0 8px 8px 0;
+}
+
+.film-list__item-title{
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	text-overflow: ellipsis;
+}
+
+.film-list__item-description{
+	text-align: justify;
+}
+
+.film-list__item-wrapper{
+	overflow: hidden;
+	height: 310px;
+	margin: 10px 5px;
+}
